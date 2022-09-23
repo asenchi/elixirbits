@@ -4,18 +4,18 @@ defmodule Elixirbits do
   """
 
   @doc """
-  Hello world.
+  Random string
 
   ## Examples
 
-      iex> Elixirbits.hello()
-      :world
+      iex> Elixirbits.random_string(8)
+      ""
 
   """
-  def hello do
-    :world
-  end
 
+  @type length :: integer()
+
+  @spec random_string(length) :: String.t()
   def random_string(length) do
     length
     |> :crypto.strong_rand_bytes()
