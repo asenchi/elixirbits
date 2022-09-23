@@ -1,6 +1,8 @@
 # Elixirbits
 
-**TODO: Add description**
+Random elixir code pieces that I wanted to keep track of.
+
+# DO NOT USE
 
 ## Installation
 
